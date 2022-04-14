@@ -1,0 +1,32 @@
+.footer {
+  position: absolute;
+  /* bottom: 0; */
+  left: 0;
+  width: 100%;
+}
+.footer .container {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.footer hr {
+  width: 60%;
+  color: inherit;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.social-media a {
+  font-size: 18px;
+}
+.copy-right p {
+  font-size: 14px;
+  color: #828282;
+  text-align: center;
+}
