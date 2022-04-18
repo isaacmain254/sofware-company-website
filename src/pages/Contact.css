@@ -1,0 +1,107 @@
+.contact {
+  width: 95%;
+  margin: 15px auto 30px;
+  box-sizing: border-box;
+}
+.contact h1 {
+  font-weight: 400;
+  color: #1e90ff;
+}
+/* container section */
+.contact .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-content {
+  width: 40%;
+  font-size: 17px;
+  line-height: 26px;
+}
+.contact-image {
+  width: 50%;
+}
+.contact-image img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Adddress section */
+.address-section .address {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+.address-section {
+  text-align: center;
+}
+.address-text {
+  font-size: 16px;
+  font-weight: 200;
+}
+.address-image img {
+  width: 700px;
+  height: 600px;
+  object-fit: cover;
+}
+.address-content p {
+  border: 1px solid grey;
+  text-align: start;
+  background: rgba(128, 128, 128, 0.5);
+  padding: 7px 20px;
+  margin: 30px;
+}
+
+/* form section  */
+.form {
+  margin-top: 20px;
+}
+.form h3 {
+  text-align: center;
+}
+.form h3 span {
+  color: #1e90ff;
+}
+.form-content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: inherit;
+  /* border: 1px solid rgb(128, 128, 128); */
+}
+input,
+textarea {
+  width: 90%;
+  margin: 10px auto 10px;
+  border: 1px solid rgba(167, 169, 169, 0.5);
+}
+input:hover,
+textarea:hover {
+  border: 1px solid #1e90ff;
+}
+input[type="text"],
+input[type="email"] {
+  background-color: rgba(128, 128, 128, 0.3);
+  font-size: 17px;
+  color: inherit;
+  padding: 9px 0 9px;
+  border-radius: 3px;
+}
+input[type="submit"] {
+  background-color: #1e90ff;
+  border-radius: 25px;
+  font-size: 18px;
+  width: 200px;
+  padding: 7px 0 7px;
+  color: #fff;
+}
+input[type="submit"]:hover {
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+}

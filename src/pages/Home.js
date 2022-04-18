@@ -46,7 +46,7 @@ const Home = () => {
                 </div>
             </section>
             <div className="services">
-                <h2>SERVICES</h2>
+                <h2>Services</h2>
                 <div className="sevices-items">
                     {data.map((card) => (
                         <Card key={card.id} card={card} />
@@ -93,6 +93,24 @@ const Home = () => {
                             <SiDotnet className='icon' />
                         </div>
                         <p>.NET</p>
+                    </div>
+                </div>
+            </div>
+            <div className="work">
+                <h2>Our Recent Work</h2>
+                <p>We create beautiful products that make businesses succeed .We take a project from design stage to completely function software.</p>
+                <div className="projects">
+                    <div className="project-item">
+                        <img src="images/ecommerce.png" alt="project" />
+                    </div>
+                    <div className="project-item">
+                        <img src="images/responsive-web-design.jpg" alt="project" />
+                    </div>
+                    <div className="project-item">
+                        <img src="images/mobile-app.png" alt="project" />
+                    </div>
+                    <div className="project-item">
+                        <img src="images/website.jpg" alt="project" />
                     </div>
                 </div>
             </div>

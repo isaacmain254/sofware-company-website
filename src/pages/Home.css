@@ -18,6 +18,15 @@
   color: #fff;
   /* display: flex; */
 }
+.home-section:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
 
 .home .container {
   display: flex;
@@ -86,7 +95,7 @@
 .services {
   width: 90%;
   align-items: center;
-  margin: 0 auto;
+  margin: 30px auto 40px;
 }
 .sevices-items {
   display: flex;
@@ -101,6 +110,7 @@
   width: 90%;
   margin: 40px auto 40px;
   align-items: center;
+  text-align: center;
 }
 .technologies p {
   font-size: 18px;
@@ -142,4 +152,28 @@
 }
 .technology-item p {
   color: #fff;
+}
+
+/* work section */
+.work {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.project-item img {
+  width: 280px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.project-item img:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
 }
